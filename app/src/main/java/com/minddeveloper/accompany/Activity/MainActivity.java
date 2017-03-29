@@ -28,7 +28,7 @@ import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     private Context context;
-    private final int LOGIN_SUCCESS_CODE = 1;//用户已经通过token登录?
+    private final int LOGIN_SUCCESS_CODE = 1;//用户已经通过token登录
     private final int LOGIN_FAIL_CODE = 2;//用户通过token登录失败(token失效)
     private final int HAVENT_LOGIN_CODE = 3;//用户从未登录过
     private final int START_CHECK_LOGIN = 4;//开始判断登录状态
